@@ -17,6 +17,14 @@
 	<name>casbin-server-spring-boot-starter</name>
 	<description>casbin-server-spring-boot-starter</description>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub trodix Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/trodix/casbin-server</url>
+		</repository>
+	</distributionManagement>
+
 	<properties>
 		<java.version>17</java.version>
 
